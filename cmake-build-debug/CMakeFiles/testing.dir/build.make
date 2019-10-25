@@ -82,21 +82,66 @@ CMakeFiles/testing.dir/thisisaclass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/thisisaclass.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\omrif\CLionProjects\testing\thisisaclass.cpp -o CMakeFiles\testing.dir\thisisaclass.cpp.s
 
+CMakeFiles/testing.dir/anotherclass.cpp.obj: CMakeFiles/testing.dir/flags.make
+CMakeFiles/testing.dir/anotherclass.cpp.obj: ../anotherclass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\omrif\CLionProjects\testing\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testing.dir/anotherclass.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\testing.dir\anotherclass.cpp.obj -c C:\Users\omrif\CLionProjects\testing\anotherclass.cpp
+
+CMakeFiles/testing.dir/anotherclass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/anotherclass.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\omrif\CLionProjects\testing\anotherclass.cpp > CMakeFiles\testing.dir\anotherclass.cpp.i
+
+CMakeFiles/testing.dir/anotherclass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/anotherclass.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\omrif\CLionProjects\testing\anotherclass.cpp -o CMakeFiles\testing.dir\anotherclass.cpp.s
+
+CMakeFiles/testing.dir/classyclass.cpp.obj: CMakeFiles/testing.dir/flags.make
+CMakeFiles/testing.dir/classyclass.cpp.obj: ../classyclass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\omrif\CLionProjects\testing\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testing.dir/classyclass.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\testing.dir\classyclass.cpp.obj -c C:\Users\omrif\CLionProjects\testing\classyclass.cpp
+
+CMakeFiles/testing.dir/classyclass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/classyclass.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\omrif\CLionProjects\testing\classyclass.cpp > CMakeFiles\testing.dir\classyclass.cpp.i
+
+CMakeFiles/testing.dir/classyclass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/classyclass.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\omrif\CLionProjects\testing\classyclass.cpp -o CMakeFiles\testing.dir\classyclass.cpp.s
+
+CMakeFiles/testing.dir/hellothere.cpp.obj: CMakeFiles/testing.dir/flags.make
+CMakeFiles/testing.dir/hellothere.cpp.obj: ../hellothere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\omrif\CLionProjects\testing\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testing.dir/hellothere.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\testing.dir\hellothere.cpp.obj -c C:\Users\omrif\CLionProjects\testing\hellothere.cpp
+
+CMakeFiles/testing.dir/hellothere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/hellothere.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\omrif\CLionProjects\testing\hellothere.cpp > CMakeFiles\testing.dir\hellothere.cpp.i
+
+CMakeFiles/testing.dir/hellothere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/hellothere.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\omrif\CLionProjects\testing\hellothere.cpp -o CMakeFiles\testing.dir\hellothere.cpp.s
+
 # Object files for target testing
 testing_OBJECTS = \
 "CMakeFiles/testing.dir/main.cpp.obj" \
-"CMakeFiles/testing.dir/thisisaclass.cpp.obj"
+"CMakeFiles/testing.dir/thisisaclass.cpp.obj" \
+"CMakeFiles/testing.dir/anotherclass.cpp.obj" \
+"CMakeFiles/testing.dir/classyclass.cpp.obj" \
+"CMakeFiles/testing.dir/hellothere.cpp.obj"
 
 # External object files for target testing
 testing_EXTERNAL_OBJECTS =
 
 testing.exe: CMakeFiles/testing.dir/main.cpp.obj
 testing.exe: CMakeFiles/testing.dir/thisisaclass.cpp.obj
+testing.exe: CMakeFiles/testing.dir/anotherclass.cpp.obj
+testing.exe: CMakeFiles/testing.dir/classyclass.cpp.obj
+testing.exe: CMakeFiles/testing.dir/hellothere.cpp.obj
 testing.exe: CMakeFiles/testing.dir/build.make
 testing.exe: CMakeFiles/testing.dir/linklibs.rsp
 testing.exe: CMakeFiles/testing.dir/objects1.rsp
 testing.exe: CMakeFiles/testing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\omrif\CLionProjects\testing\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testing.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\omrif\CLionProjects\testing\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable testing.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\testing.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

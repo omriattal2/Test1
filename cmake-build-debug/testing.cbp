@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/anotherclass.cpp">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/anotherclass.h">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/classyclass.cpp">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/classyclass.h">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/hellothere.cpp">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/hellothere.h">
+			<Option target="testing"/>
+		</Unit>
 		<Unit filename="C:/Users/omrif/CLionProjects/testing/main.cpp">
 			<Option target="testing"/>
 		</Unit>

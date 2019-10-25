@@ -122,6 +122,87 @@ testing/fast:
 	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/build
 .PHONY : testing/fast
 
+anotherclass.obj: anotherclass.cpp.obj
+
+.PHONY : anotherclass.obj
+
+# target to build an object file
+anotherclass.cpp.obj:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/anotherclass.cpp.obj
+.PHONY : anotherclass.cpp.obj
+
+anotherclass.i: anotherclass.cpp.i
+
+.PHONY : anotherclass.i
+
+# target to preprocess a source file
+anotherclass.cpp.i:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/anotherclass.cpp.i
+.PHONY : anotherclass.cpp.i
+
+anotherclass.s: anotherclass.cpp.s
+
+.PHONY : anotherclass.s
+
+# target to generate assembly for a file
+anotherclass.cpp.s:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/anotherclass.cpp.s
+.PHONY : anotherclass.cpp.s
+
+classyclass.obj: classyclass.cpp.obj
+
+.PHONY : classyclass.obj
+
+# target to build an object file
+classyclass.cpp.obj:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/classyclass.cpp.obj
+.PHONY : classyclass.cpp.obj
+
+classyclass.i: classyclass.cpp.i
+
+.PHONY : classyclass.i
+
+# target to preprocess a source file
+classyclass.cpp.i:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/classyclass.cpp.i
+.PHONY : classyclass.cpp.i
+
+classyclass.s: classyclass.cpp.s
+
+.PHONY : classyclass.s
+
+# target to generate assembly for a file
+classyclass.cpp.s:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/classyclass.cpp.s
+.PHONY : classyclass.cpp.s
+
+hellothere.obj: hellothere.cpp.obj
+
+.PHONY : hellothere.obj
+
+# target to build an object file
+hellothere.cpp.obj:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/hellothere.cpp.obj
+.PHONY : hellothere.cpp.obj
+
+hellothere.i: hellothere.cpp.i
+
+.PHONY : hellothere.i
+
+# target to preprocess a source file
+hellothere.cpp.i:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/hellothere.cpp.i
+.PHONY : hellothere.cpp.i
+
+hellothere.s: hellothere.cpp.s
+
+.PHONY : hellothere.s
+
+# target to generate assembly for a file
+hellothere.cpp.s:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/hellothere.cpp.s
+.PHONY : hellothere.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,6 +266,15 @@ help:
 	@echo ... testing
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... anotherclass.obj
+	@echo ... anotherclass.i
+	@echo ... anotherclass.s
+	@echo ... classyclass.obj
+	@echo ... classyclass.i
+	@echo ... classyclass.s
+	@echo ... hellothere.obj
+	@echo ... hellothere.i
+	@echo ... hellothere.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
