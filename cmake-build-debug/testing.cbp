@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/omrif/CLionProjects/testing/main.cpp">
 			<Option target="testing"/>
 		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/thisisaclass.cpp">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="C:/Users/omrif/CLionProjects/testing/thisisaclass.h">
+			<Option target="testing"/>
+		</Unit>
 		<Unit filename="C:/Users/omrif/CLionProjects/testing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

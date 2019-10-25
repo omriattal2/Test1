@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+thisisaclass.obj: thisisaclass.cpp.obj
+
+.PHONY : thisisaclass.obj
+
+# target to build an object file
+thisisaclass.cpp.obj:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/thisisaclass.cpp.obj
+.PHONY : thisisaclass.cpp.obj
+
+thisisaclass.i: thisisaclass.cpp.i
+
+.PHONY : thisisaclass.i
+
+# target to preprocess a source file
+thisisaclass.cpp.i:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/thisisaclass.cpp.i
+.PHONY : thisisaclass.cpp.i
+
+thisisaclass.s: thisisaclass.cpp.s
+
+.PHONY : thisisaclass.s
+
+# target to generate assembly for a file
+thisisaclass.cpp.s:
+	$(MAKE) -f CMakeFiles\testing.dir\build.make CMakeFiles/testing.dir/thisisaclass.cpp.s
+.PHONY : thisisaclass.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... thisisaclass.obj
+	@echo ... thisisaclass.i
+	@echo ... thisisaclass.s
 .PHONY : help
 
 
